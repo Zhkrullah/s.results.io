@@ -1,0 +1,344 @@
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f7efef;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    width: 800px;
+    height:100% ;
+    gap: 10px;
+    margin: auto;
+    padding: 0 20px;
+    
+}
+.left-box{
+    width: 400px;
+    background-color:  hsl(252, 100%, 67%);
+    padding: 80px 0;
+    border-radius: 40px;
+}
+
+.right-box{
+    width: 400px;
+    background-color: #fff;
+    
+    border-radius: 0  40px 40px 0;   
+    padding: 80px 0;
+}
+h2{
+    color: #fff;
+    text-align: center;
+}
+.circle{
+    color: #fff;
+   padding: 30px;
+    margin-top: 20px;
+    background-color: hsl(241, 81%, 54%);
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    border-radius: 50%;
+}   
+
+.off{
+    word-spacing: normal;
+    color: #f7efef96;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+
+h3.great{
+   margin-left: 150px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+p{
+    width: 240px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+   
+}
+.reaction{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+   padding:25px 10px ;
+   background-color:hsla(19, 84%, 71%, 0.164) ;
+   border-radius: 15px;
+   font-size: 20px;
+   font-weight: 700;
+}
+.memory{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+   padding:25px 10px ;
+   background-color:hsla(36, 73%, 72%, 0.137) ;
+   border-radius: 15px;
+   font-size: 20px;
+   font-weight: 700;
+}
+.Verbal{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+   padding:25px 10px ;
+   background-color: hsla(165, 15%, 50%, 0.281) ;
+   border-radius: 15px;
+   font-size: 20px;
+   font-weight: 700;
+}
+.visual{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 20px;
+   padding:25px 10px ;
+   background-color: hsla(233, 26%, 75%, 0.692) ;
+   border-radius: 15px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.yellow{
+    color: hsl(39, 100%, 56%);
+}
+h3{
+    font-size: 18px;
+    margin-left: 20px;
+    color: hsla(0, 100%, 67%, 0.801);
+   
+}
+
+h5{
+    margin-left: 170px;
+    font-size: 18px;
+}
+span{
+    font-size: 18px;
+    color: rgb(116, 111, 111);
+    word-spacing: 10px;
+}
+
+.green{
+    color:  hsl(166, 100%, 37%);
+    font-size: 18px;
+}
+
+.blue{
+    color: hsl(234, 85%, 45%);
+}
+
+button{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: #2fcc;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+} 
+
+@media (max-width: 768px) {
+    main{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .left-box, .right-box{
+        width: 100%;
+        border-radius: 40px;
+        padding: 40px 20px;
+    }
+
+    .circle{
+        margin: auto;
+        width: 80px;
+        height: 80px;
+    }
+
+    h1, h2, h3, p{
+        font-size: 16px;
+    }
+
+    .reaction, .memory, .Verbal, .visual{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    button{
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+.green{
+    color:  hsl(166, 100%, 37%);
+    font-size: 18px;
+}
+
+.blue{
+    color: hsl(234, 85%, 45%);
+}
+
+button{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: #2fcc;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    main {
+        width: 90%;
+    }
+    .left-box, .right-box {
+        width: 100%;
+    }
+    .circle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3.great, p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .reaction, .memory, .Verbal, .visual, button {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .left-box, .right-box {
+        width: 100%;
+        border-radius: 40px;
+        padding: 40px 0;
+    }
+    .circle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3.great, p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .reaction, .memory, .Verbal, .visual, button {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .left-box, .right-box {
+        width: 100%;
+        border-radius: 40px;
+        padding: 40px 0;
+    }
+    .circle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3.great, p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .reaction, .memory, .Verbal, .visual, button {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+    .reaction, .memory, .Verbal, .visual {
+        font-size: 16px;
+        padding: 15px;
+    }
+    button {
+        font-size: 16px;
+    }
+}
+
+
+
+
+ 
